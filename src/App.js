@@ -7,8 +7,6 @@ import Home from "./Pages/Home";
 import Quote from "./Pages/Quote";
 import Navbar from "./Components/Navbar";
 
-import * as math from "mathjs";
-
 const App = () => {
   return (
     <Router>

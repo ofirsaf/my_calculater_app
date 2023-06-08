@@ -1,0 +1,23 @@
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+  width: 5em;
+  color: white;
+  background-color: #333333;
+  margin: 1px;
+  user-select: none;
+}
+
+.button-wrapper.large {
+  width: 8em;
+}
+
+.button-wrapper.operator {
+  background-color: #666666;
+}
+
+.button-wrapper:active {
+  background-color: #88f6ff;
+}

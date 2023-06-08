@@ -1,0 +1,11 @@
+.delete-btn {
+    background-color: #ac3939;
+    width: 4em;
+    height: 4em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+  

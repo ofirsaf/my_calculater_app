@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  height: 100vh; /* Take up the full viewport height */
+}
+
+.half-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* center children vertically */
+  align-items: center; /* center children horizontally */
+  width: 50%; /* each half-screen takes up half of the container's width */
+  height: 100%; /* each half-screen takes up the full container's height */
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.math-image {
+  width: 100%;
+  height: 90%;
+  margin-top: 5%;
+  object-fit: cover;
+}

@@ -27,6 +27,9 @@ export default function Calculator() {
   };
   return (
     <div className="centered">
+      <div className="title-wrapper">
+        <h2 className="calculator-title">Let's Do Some Math!</h2>
+      </div>
       <div className="calc-wrapper">
         <Input input={result || input} />
         <div className="row">

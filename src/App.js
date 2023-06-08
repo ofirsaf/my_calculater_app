@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Calculator from "./Pages/Calculator";
 import Home from "./Pages/Home";
-import Quote from "./Pages/Quete";
+import Quote from "./Pages/Quote";
 import Navbar from "./Components/Navbar";
 
 import * as math from "mathjs";

@@ -11,6 +11,7 @@
   width: 50%; /* each half-screen takes up half of the container's width */
   height: 100%; /* each half-screen takes up the full container's height */
 }
+
 .ofir {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
@@ -20,12 +21,13 @@
   flex-direction: column;
   justify-content: center; /* center children vertically */
   align-items: center; /* center children horizontally */
-  margin: 12px;
+  margin-left: 12px;
 }
 
 .title {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: lighter;
+  margin-bottom: 20px;
 }
 
 .paragraph {
@@ -38,4 +40,29 @@
   height: 90%;
   margin-top: 5%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .home-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .half-screen {
+    height: 50%; /* Each half-screen takes up 50% of the container's height */
+  }
+
+  .ofir {
+    margin-left: 0; /* Remove the left margin */
+    margin-bottom: 12px; /* Add bottom margin to the quote container */
+  }
+
+  .math-image {
+    width: 80%; /* Reduce the width of the image */
+    height: auto; /* Reset the height to maintain aspect ratio */
+    margin-top: 0; /* Remove the top margin */
+  }
 }
